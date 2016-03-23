@@ -1,8 +1,8 @@
 app:
   build: .
-  command: npm start
+  command: npm run dev
   ports:
-    - "8080:8080"
+    - "3030:3030"
   volumes:
     - .:/app
   volumes_from:

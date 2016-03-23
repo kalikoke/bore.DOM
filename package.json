@@ -1,26 +1,30 @@
 {
   "name": "app",
-  "version": "0.0.1",
-  "description": "bore.DOM",
-  "main": "index.js",
+  "description": "The product of bore.DOM",
+  "author": "Kali Koke <kalikoke@gmail.com>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --port 3030",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@kalikoke.github.com:kalikoke/bore.DOM.git"
+  "dependencies": {
+    "vue": "^1.0.0"
   },
-  "keywords": [
-    "boredom"
-  ],
-  "author": "kalikoke",
-  "license": "GPL-3.0",
   "devDependencies": {
-    "jsx-loader": "^0.13.2",
-    "react": "^0.14.7",
-    "react-router": "^2.0.1",
-    "static-site-generator-webpack-plugin": "^2.0.1",
-    "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.4",
+    "json-loader": "^0.5.4",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^8.2.1",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
   }
 }
