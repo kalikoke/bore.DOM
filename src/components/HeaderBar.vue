@@ -20,11 +20,12 @@ export default {
 
 <style>
   .header {
-    padding: 15px 35px;
+    text-align: center;
+    padding: 15px 10px 0px;
     border-bottom: solid 1px #eee;
   }
 
   .title {
-    text-transform: uppercase;
+    text-transform: lowercase;
   }
 </style>

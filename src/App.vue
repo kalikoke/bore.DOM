@@ -1,20 +1,21 @@
 <template>
-  <div class="container">
-    <titlebar></titlebar>
-  </div>
+  <header-bar></header-bar>
+  <content-area></content-area>
 </template>
 
 <script>
-import Titlebar from './components/Titlebar'
+import HeaderBar from './components/HeaderBar'
+import ContentArea from './components/ContentArea'
 
 export default {
   components: {
-    Titlebar
+    HeaderBar,
+    ContentArea
   }
 }
 </script>
 
 <style>
 @import "./assets/normalize.css";
-@import "./assets/skeleton.css"
+@import "./assets/skeleton.css";
 </style>
