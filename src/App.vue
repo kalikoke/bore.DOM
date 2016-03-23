@@ -15,7 +15,6 @@ export default {
 </script>
 
 <style>
-  .container {
-    width: 100%;
-  }
+@import "./assets/normalize.css";
+@import "./assets/skeleton.css"
 </style>
