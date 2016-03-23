@@ -6,12 +6,19 @@
 
 I was bored, so I decided to hack on some front-end stuff since most of my work is computational stuff these days.
 
-## Build Setup
+## Pre-Build
 
-``` bash
+```bash
 # build docker image
 docker-compose build
 
+# bootstrapping the vue project:
+# docker-compose run --rm app vue init <template-name> <path>
+```
+
+## Build Setup
+
+``` bash
 # install dependencies
 docker-compose run --rm app npm install
 
