@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "bore.DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@kalikoke.github.com:kalikoke/bore.DOM.git"
+  },
+  "keywords": [
+    "boredom"
+  ],
+  "author": "kalikoke",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "react": "^0.14.7",
+    "react-router": "^2.0.1",
+    "static-site-generator-webpack-plugin": "^2.0.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
